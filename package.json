@@ -7,12 +7,12 @@
     "access": "public"
   },
   "scripts": {
+    "semantic-release": "semantic-release",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
-    "commit": "git-cz",
-    "semantic-release": "semantic-release"
+    "commit": "git-cz"
   },
   "files": [
     "lib/**/*"
