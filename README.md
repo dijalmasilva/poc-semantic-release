@@ -12,13 +12,10 @@ npm i -D @commitlint/cli @commitlint/config-conventional @semantic-release/chang
 
 ```json
 {
-  ...
-  "scripts" : {
-    ...
+  "scripts": {
     "commit": "git-cz",
     "semantic-release": "semantic-release"
   }
-  ...
 }
 ```
 
@@ -26,8 +23,7 @@ npm i -D @commitlint/cli @commitlint/config-conventional @semantic-release/chang
 
 ```json
 {
-  ...
-  "release" : {
+  "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
@@ -37,16 +33,11 @@ npm i -D @commitlint/cli @commitlint/config-conventional @semantic-release/chang
       [
         "@semantic-release/git",
         {
-          "assets": [
-            "CHANGELOG.md",
-            "package.json",
-            "package-lock.json"
-          ]
+          "assets": ["CHANGELOG.md", "package.json", "package-lock.json"]
         }
       ]
     ]
   }
-  ...
 }
 ```
 
@@ -54,10 +45,8 @@ npm i -D @commitlint/cli @commitlint/config-conventional @semantic-release/chang
 
 ```json
 {
-  ...
   "publishConfig": {
     "access": "public"
-  },
-  ...
+  }
 }
 ```
