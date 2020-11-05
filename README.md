@@ -50,3 +50,15 @@ npm i -D @commitlint/cli @commitlint/config-conventional @semantic-release/chang
   }
 }
 ```
+
+- In your CI, you need configure to Environments:
+
+```yml
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+```
+
+- If you are using Actions from Github, you don't need add GITHUB_TOKEN in secrets.
+
+- To get NPM_TOKEN, go to https://www.npmjs.com/settings/yourusername/tokens/ and generete a token. After this, you go to settings in your Github project and add your environment NPM_TOKEN with this token.
