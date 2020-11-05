@@ -5,7 +5,7 @@
 - Install dev dependencies:
 
 ```sh
-npm i -D @commitlint/cli @commitlint/config-conventional @semantic-release/changelog @semantic-release/git commitizen cz-conventional-changelog husky semantic-release
+npm i -D semantic-release @commitlint/cli @commitlint/config-conventional @semantic-release/changelog @semantic-release/git commitizen cz-conventional-changelog husky
 ```
 
 - Add scripts to commit in `package.json` in root project:
