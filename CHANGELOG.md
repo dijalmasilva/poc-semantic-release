@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/dijalmasilva/poc-semantic-release/compare/v2.0.1...v2.1.0) (2020-11-06)
+
+
+### Features
+
+* **component:** add name in return component ([ccd301b](https://github.com/dijalmasilva/poc-semantic-release/commit/ccd301b0bf0ed4afb46aeffcda1916168529586e))
+
 ## [2.0.1](https://github.com/dijalmasilva/poc-semantic-release/compare/v2.0.0...v2.0.1) (2020-11-06)
 
 
