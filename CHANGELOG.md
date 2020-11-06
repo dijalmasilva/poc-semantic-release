@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/dijalmasilva/poc-semantic-release/compare/v1.0.0...v2.0.0) (2020-11-06)
+
+
+### Features
+
+* **component:** new component created ([2059aff](https://github.com/dijalmasilva/poc-semantic-release/commit/2059aff38f31ab9526b68b9835f4d66e0f5d8d99))
+
+
+### BREAKING CHANGES
+
+* **component:** A new component was created
+
 # 1.0.0 (2020-11-05)
 
 
