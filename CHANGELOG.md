@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/dijalmasilva/poc-semantic-release/compare/v2.0.0...v2.0.1) (2020-11-06)
+
+
+### Bug Fixes
+
+* **component:** add new property to component ([736d06f](https://github.com/dijalmasilva/poc-semantic-release/commit/736d06f9d01eb701dc33a035d339ebddc4fc4f9b))
+* **other:** change string in other component ([e97d889](https://github.com/dijalmasilva/poc-semantic-release/commit/e97d889fde4dce391bf2c47e080bd9e5c19d36df))
+
 # [2.0.0](https://github.com/dijalmasilva/poc-semantic-release/compare/v1.0.0...v2.0.0) (2020-11-06)
 
 
