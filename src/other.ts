@@ -1,1 +1,1 @@
-export const Other = (name: String) => `Hello other name with ${name}`;
+export const Other = (name: String) => `Hello other name with asdad ${name}`;
