@@ -14,7 +14,8 @@ pipeline {
             steps {
                 sh '''
                 # Run optional required steps before releasing
-                npx semantic-release
+                npm install
+                npm run semantic-release
                 '''
             }     
         }
