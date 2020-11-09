@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:6-alpine' 
+            image 'node:12' 
             args '-p 3000:3000' 
         }
     }
@@ -15,7 +15,7 @@ pipeline {
                 sh '''
                 # Run optional required steps before releasing
                 npm install
-                npm run semantic-release
+                npx semantic-release
                 '''
             }     
         }
