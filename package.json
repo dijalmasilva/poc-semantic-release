@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "semantic-release": "semantic-release -d",
+    "semantic-release": "semantic-release --debug --dry-run",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
