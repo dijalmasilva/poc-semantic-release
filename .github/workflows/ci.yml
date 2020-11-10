@@ -10,5 +10,5 @@ jobs:
         with:
           url: 'http://8097468e90eb.ngrok.io'
           user: 'dijalmasilva'
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.JENKINS_TOKEN }}
           job: 'poc-semantic-release'
