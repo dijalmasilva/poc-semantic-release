@@ -1,3 +1,38 @@
+# [2.2.0-alpha.1](https://github.com/dijalmasilva/poc-semantic-release/compare/v2.1.0...v2.2.0-alpha.1) (2020-11-11)
+
+
+### Bug Fixes
+
+* **ci:** add branch alpha ([23ccdda](https://github.com/dijalmasilva/poc-semantic-release/commit/23ccdda1d6d172ae0a9a883c17242719101a18b4))
+* **ci:** add branches to ci hook ([56a2ad9](https://github.com/dijalmasilva/poc-semantic-release/commit/56a2ad9862f700fb869cc3ea55cd5597cc177554))
+* **ci:** add node ([1b0026d](https://github.com/dijalmasilva/poc-semantic-release/commit/1b0026d9ab17f0c5af7eb9a888cf24327f219b54))
+* **ci:** add origin/master as a trigger to build semantic-release ([ffa398d](https://github.com/dijalmasilva/poc-semantic-release/commit/ffa398d80ee5510974924556e318caae574a549d))
+* **ci:** change ci to use Dockerfile ([fbf7a0e](https://github.com/dijalmasilva/poc-semantic-release/commit/fbf7a0e326dd4013c47b6058258bf57aef43cc5f))
+* **ci:** change credential token github in Jenkinsfile ([05f96a1](https://github.com/dijalmasilva/poc-semantic-release/commit/05f96a13c67f7604ee4c87371a29f7048f8c3d03))
+* **ci:** change jenkinsfile ([9b7a6aa](https://github.com/dijalmasilva/poc-semantic-release/commit/9b7a6aadcdb12bdce19901faae7992e9238b5b62))
+* **ci:** change releases to default branches ([3759aa2](https://github.com/dijalmasilva/poc-semantic-release/commit/3759aa292a099662effa829c29d7a4214c342fc2))
+* **ci:** change run instruction ([1cc2eb1](https://github.com/dijalmasilva/poc-semantic-release/commit/1cc2eb1003c1983f6dd6510778495174a91e0d81))
+* **ci:** change secrets name to Jenkins_Token ([7859183](https://github.com/dijalmasilva/poc-semantic-release/commit/78591834312831dbddc766dfcf8527395112d44f))
+* **ci:** create .npmrc ([34f108f](https://github.com/dijalmasilva/poc-semantic-release/commit/34f108f449a89be61ecf3fe14b99bfbcf96e0a2b))
+* **ci:** fix agent in jenkinsfile ([722e575](https://github.com/dijalmasilva/poc-semantic-release/commit/722e5751a2fdb240b8b20ce2d9d01d844b4679f9))
+* **ci:** fix error in syntax file ([7362944](https://github.com/dijalmasilva/poc-semantic-release/commit/73629448aba3b7b8a320f89873d0a161dd11d28d))
+* **ci:** remove .npmrc ([15476fd](https://github.com/dijalmasilva/poc-semantic-release/commit/15476fdc0b12c8d056e997a51457331cb65c99b9))
+* **ci:** separate releaserc ([7ad4202](https://github.com/dijalmasilva/poc-semantic-release/commit/7ad4202ba8a01429003fa7216a1d48a2525bb468))
+* **ci:** test ([5016888](https://github.com/dijalmasilva/poc-semantic-release/commit/50168880230425e18a74ff6e771918bf634fd9a3))
+* **ci:** testing ([916da5d](https://github.com/dijalmasilva/poc-semantic-release/commit/916da5dbdc161e2ee71fa2686045e5cc84507d70))
+* **ci:** testing 1 ([cc965dd](https://github.com/dijalmasilva/poc-semantic-release/commit/cc965ddc753d963280c051cff8d5263c1a5f4307))
+* **ci:** try again ([3dcc159](https://github.com/dijalmasilva/poc-semantic-release/commit/3dcc159a64a55b7bb12b64250bc213b914832bc2))
+* **ci:** try again ([cd35035](https://github.com/dijalmasilva/poc-semantic-release/commit/cd350359401c0d92c4bd72a48e7a64ed8a17156b))
+* **ci:** try again ([15652bb](https://github.com/dijalmasilva/poc-semantic-release/commit/15652bb6d682b213efb031e69131387d968736c7))
+* **ci:** update ci ([16cdf72](https://github.com/dijalmasilva/poc-semantic-release/commit/16cdf722ce89fbb08f5e25d38bb52011139346df))
+
+
+### Features
+
+* **ci:** add trigger in github actions to jenkins ([6722997](https://github.com/dijalmasilva/poc-semantic-release/commit/6722997ab487a5a363f2a9b590a53d73958ba14a))
+* **ci:** change CI to Jenkins ([6ddd0c8](https://github.com/dijalmasilva/poc-semantic-release/commit/6ddd0c86017aa08166cbf924743597617012db84))
+* **ci:** using github action ([9bf2ea9](https://github.com/dijalmasilva/poc-semantic-release/commit/9bf2ea96a7dbd4e02ae769b7416d8f4b183b47c1))
+
 # [2.1.0](https://github.com/dijalmasilva/poc-semantic-release/compare/v2.0.1...v2.1.0) (2020-11-06)
 
 
